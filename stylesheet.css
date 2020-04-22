@@ -67,3 +67,30 @@ header a{
   font-size:18px;
   padding-top:30px;
 }
+
+/*-----about-----*/
+.part{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height:auto;
+}
+.wrapper-title{
+  width:100%;
+  text-align: center;
+  color:rgb(9, 43, 72);
+  font-size:30px;
+  font-weight: bold;
+  margin:50px;
+}
+.left-image{
+  width:50%;
+}
+.left-image img{
+  padding-right:20px;
+}
+.right-text{
+  width:45%;
+  font-size:18px;
+  color:rgb(9, 43, 72);
+}
