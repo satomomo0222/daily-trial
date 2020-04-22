@@ -1,6 +1,6 @@
 body{
   background-color: white;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 .container{
   max-width:1000px;
@@ -73,7 +73,6 @@ header a{
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  height:auto;
 }
 .wrapper-title{
   width:100%;
@@ -84,11 +83,12 @@ header a{
   margin:50px;
 }
 .left-image{
-  width:50%;
+  width:45%;
 }
 .left-image img{
-  padding-right:20px;
+  width:100%;
 }
+
 .right-text{
   width:45%;
   font-size:18px;
