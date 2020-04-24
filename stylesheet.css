@@ -1,6 +1,7 @@
 body{
   background-color: white;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 .container{
   max-width:1000px;
@@ -44,7 +45,7 @@ header a{
 .top-wrapper{
   min-height: 430px;
   background-image: url("img/main-vsual-nontitle.png");
-  background-size:100vw auto;
+  background-size:100% auto;
   margin:0 calc(50% - 50vw);
   display: flex;
   flex-direction: column;
@@ -72,6 +73,8 @@ header a{
 .part{
   display:flex;
   flex-wrap: wrap;
+}
+.about{
   justify-content: space-between;
 }
 .wrapper-title{
@@ -113,25 +116,26 @@ header a{
 
 /*-----contact-----*/
 .contact{
-  display:flex;
-  flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 .contact-text{
   font-size:18px;
   color:rgb(9, 43, 72);
+  width:100%;
+}
+.contact-form{
+  width:100%;
 }
 .contact-form input{
   height:50px;
-  width:50%;
-  border-width: 3px;
-  border-radius: 50px;
-  border-color:#cccccc;
+  width:60%;
   outline:none;
   font-size: 18px;
   color:#2e2e2e;
-  padding-left:10px;
+  padding:0 20px;
+  border:3px solid #cccccc;
+  border-radius: 50px;
 }
 
 .btn{
@@ -144,7 +148,7 @@ header a{
   line-height: 80px;
 
   color:white;
-  background-color: #ff5975;
+  background-color: #ff5959;
   border-radius: 5px;
   text-decoration: none;
   font-size:30px;
