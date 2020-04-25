@@ -1,6 +1,6 @@
-@media(max-width:1000px){
+@media(max-width:1000px){ 
   .container{
-    width:90%;
+    width:100%;
   }
   .tablet{
     display:block;
@@ -12,6 +12,7 @@
 /*-----header-----*/
   header{
     flex-direction: column;
+    justify-content: center;
     height:auto;
     margin-top:30px;
   }
@@ -23,10 +24,13 @@
     justify-content: center;
   }
   .header-right a{
-    font-size: 16px; 
+    font-size: 14px; 
+  }
+  .header-right ul{
+    padding-inline-start: 0px;
   }
   .header-right li{
-    margin-right:20px;
+    margin:0 10px;
   }
 
 /*-----top-wrapper-----*/
@@ -35,51 +39,70 @@
   background-size: auto 100%;
 }
 .title-message{
-  font-size:40px;
+  font-size:30px;
+}
+.title-text{
+  font-size:12px;
+  font-weight: normal;
 }
 
 /*-----about-----*/
 .part{
   flex-direction: column center;
-  margin:0 auto;
+  justify-content: center;
 }
 .wrapper-title{
-  margin:50px auto;
+  margin:80px auto 30px;
+  font-size:20px;
 }
 .left-image{
-  width:100%;
+  width:90%;
 }
 .left-image img{
   width:100%;
   margin-bottom: 20px;
 }
 .right-text{
-  width:100%;
+  width:85%;
+  font-size: 12px;
 }
 
 /*-----contents-----*/
-.contents{
-  justify-content: center;
-  flex-direction: column;
-}
+
+
 .content{
-  width:100%;
+  width:90%;
   margin-bottom: 20px;
 }
 
 /*-----contact-----*/
 .contact{
-  margin: 0 auto;
+  width:100%;
 }
+.contact-text{
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
 .contact-form input{
+  width:75%;
+}
+
+.btn a{
   width:90%;
 }
 
 /*-----footer-----*/
 footer{
+  margin:0 auto;
   justify-content: center;
+  width:90%;
 }
 
+small{
+  font-size: 10px;
+  margin:20px 0 20px;
+}
 
 
 
